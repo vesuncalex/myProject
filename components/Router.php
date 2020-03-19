@@ -3,6 +3,7 @@ use controllers\LoginController;
 use controllers\RegisterController;
 use controllers\HomeController;
 use controllers\RegistrationController;
+use controllers\WorkController;
 
 class Router
 {

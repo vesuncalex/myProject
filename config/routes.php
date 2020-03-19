@@ -17,4 +17,8 @@ return [
         'controller' => "RegisterController",
         'action' => "index"
     ],
+    'work' => [
+        'controller' => 'WorkController',
+        'action' => 'index'
+    ]
 ];
