@@ -10,6 +10,7 @@ require_once(ROOT . "/helper/helper.php");
 require_once (ROOT . "/controllers/RegisterController.php");
 require_once (ROOT . "/controllers/HomeController.php");
 require_once (ROOT . "/controllers/RegistrationController.php");
+require_once (ROOT . "/controllers/WorkController.php");
 
 
 $router = new Router();
