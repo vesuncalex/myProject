@@ -20,5 +20,13 @@ return [
     'work' => [
         'controller' => 'WorkController',
         'action' => 'index'
+    ],
+    'post-register' => [
+        'controller' => 'RegisterController',
+        'action' => 'postRegister',
+    ],
+    'logic-tasks' => [
+        'controller' => 'LoginController',
+        'action' => 'indexList'
     ]
 ];

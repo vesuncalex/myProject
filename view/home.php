@@ -1,13 +1,13 @@
 <?php
-/*
-echo $dataBaseKey;
+
+
 die();
 $servername = "localhost";
 $username = "user";
 $password = "secret";
 $dbname = "register";
 $logPage = $_POST['loginPage'];
-$passPage = $_POST['passwordPage'];
+$passPage = $_POST['password'];
 if (isset($_POST['signPage'])) {
     $conn = new mysqli($servername, $username, $password, $dbname);
     $sql = "SELECT * FROM users WHERE (email = '".$logPage."' && password = '".$passPage."')";
@@ -17,7 +17,7 @@ if (isset($_POST['signPage'])) {
     }
     else echo "such user does not exist  <br><br>";
 }
-*/?><!--
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +26,7 @@ if (isset($_POST['signPage'])) {
 <body>
 <form action="/" method="post">
     <input type="text" name="loginPage" placeholder="Login"><br><br>
-    <input type="password" name="passwordPage" placeholder="Password"><br><br>
+    <input type="password" name="password" placeholder="Password"><br><br>
     <input type="submit" name="signPage" value="Enter"><br><br>
 </form>
 
@@ -34,8 +34,10 @@ if (isset($_POST['signPage'])) {
  <a href="register">    <input type="submit" value="Registration"></a>
 
 </body>
-</html>-->
+</html>
 <?php
+var_dump(64);
+die();
 class car {
   public $maxspeed;
   public $color;

@@ -1,9 +1,9 @@
 <?php
 
-// todo
+// to do
 function view($name) {
     return include (ROOT."/view/$name");
 }
-//function env($name) {
-//    return include (ROOT . ".env.php");
-//}
+function env($name) {
+    return include (ROOT . ".env.php");
+}
