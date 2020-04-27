@@ -6,6 +6,7 @@ class HomeController
 {
     public function index()
     {
-        return view("home.php");
+        header('Location:/midlleware');
+        return;
     }
 }

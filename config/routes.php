@@ -26,7 +26,23 @@ return [
         'action' => 'postRegister',
     ],
     'logic-tasks' => [
-        'controller' => 'LoginController',
+        'controller' => 'LogicController',
         'action' => 'indexList'
+    ],
+    'post-login' => [
+        'controller' => 'LoginController',
+        'action' => 'postLogin',
+],
+    'profile' => [
+        'controller' => 'ProfileController',
+        'action' => 'profile'
+    ],
+    'log-out' => [
+        'controller' => 'ProfileController',
+        'action' => 'logOut'
+    ],
+    'midlleware' => [
+        'controller' => 'Controller',
+        'action' => 'midlleware'
     ]
 ];
