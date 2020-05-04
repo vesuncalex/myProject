@@ -1,5 +1,5 @@
 <?php
-
+var_dump($_SESSION['authorized']);
 echo 'Hello ' . $_SESSION['userName'] . ', this is your page';
 ?>
 <!DOCTYPE html>
